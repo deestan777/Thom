@@ -1,0 +1,148 @@
+
+.list__item{
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height:50px;
+    background: rgba(0, 0, 0, 0.698);
+    border-radius: 50%;  
+    margin:0 15px 0 0;
+
+    &:hover{
+
+        background: @main-color;
+        cursor: pointer;
+        
+    }
+
+ }
+ 
+ .icon__wrap{
+    display: inline-flex;
+    background:@main-color;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+
+        display: inline-flex;
+        background: #196d3c;
+        width:100px;
+        height: 100px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+}
+
+.navigation{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:#777777;
+
+    &:hover{
+
+        color: #181818;
+
+    }
+    
+}
+
+
+
+/* SUPER 3D BUTTON */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// old
+.btn{
+    padding:10px 20px;
+    border:0;
+    border-radius: 3px;
+    color: @white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 0.5px solid @alfa;
+    box-shadow: inset 0px 5px 10px @alfa;
+    margin: 10px;
+
+    &:focus{
+        background: @alfa;
+    }
+
+    &--green{
+        background: @green;
+        &:hover{
+            border: 0.5px solid @alfa;
+            box-shadow: none;
+            border-radius: 0px;
+            background: darken(@green, 20%);
+        }
+        &:active{
+            border: 0.5px solid @alfa;
+            box-shadow: none;
+            border-radius: 0px;
+            background: darken(@green, 60%);
+        }
+    
+    }
+
+    &--yellow{
+        background: @yellow;
+        &:hover{
+            border: 0.5px solid @alfa;
+            box-shadow: none;
+            border-radius: 0px;
+            background: darken(@yellow, 20%);
+        }
+    }
+
+    &--red{
+        background: @red;
+        &:hover{
+            border: 0.5px solid @alfa;
+            box-shadow: none;
+            border-radius: 0px;
+            background: darken(@red, 20%);
+        }
+    }
+
+    &--blue{
+        background: @blue;
+        &:hover{
+            border: 0.5px solid @alfa;
+            box-shadow: none;
+            border-radius: 0px;
+            background: darken(@blue, 20%);
+        }
+    }
+
+    &--black{
+        background: @black;
+    }
+
+}
+
